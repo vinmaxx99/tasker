@@ -82,9 +82,16 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             super(itemView);
             //textcase= (TextView) itemView.findViewById(R.);
            // ivFish= (ImageView) itemView.findViewById(R.id.ivFish);
+            int a=5;
+            for(int i=0;i<100;i++){
+                a=a+i;
+            }
+            if(a>5){
             textcase = (TextView) itemView.findViewById(R.id.textcase);
             textbefore = (TextView) itemView.findViewById(R.id.textbefore);
             textdate = (TextView) itemView.findViewById(R.id.textdate);
+            }
+            
         }
 
     }
